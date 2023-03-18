@@ -4,6 +4,11 @@ from sympy.parsing.sympy_parser import parse_expr
 
 
 def solve_meThis(string_):
+    """
+    Solve the equation given by the string.
+    @param string_ - the equation to solve
+    @return the solution
+    """
     try:
         lhs =  parse_expr(string_.split("=")[0])
         rhs =  parse_expr(string_.split("=")[1])
@@ -13,6 +18,11 @@ def solve_meThis(string_):
         print("invalid equation")
 
 def solver(operation):
+    """
+    This function takes in a string and returns the result of the string.
+    @param operation - the string to be evaluated.
+    @returns the result of the string.
+    """
     def operate(fb, sb, op):
         result = 0
         if operator == '+':
@@ -50,6 +60,11 @@ def solver(operation):
     return result
 
 def calculate(operation):
+    """
+    Take the input string and convert it to a string that can be evaluated.
+    @param operation - the input string           
+    @return The string that can be evaluated.
+    """
     string,head = '', None
     temp = string = str(operation)
     if 'D' in string:
