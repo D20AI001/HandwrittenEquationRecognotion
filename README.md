@@ -8,9 +8,9 @@ Please install requirements.txt to ensure all dependencies are accounted for.
 
 The main cde is present in the python file "HandWrittenEquationRecognition.py"
 To execute it use the below command - 
-
+```sh
 py HandWrittenEquationRecognition.py <filepath>
-
+```
 here filepath will the path to the image which has the handwritten mathematical equation
 
 The output of the execution is shown in the console which will have the solution to the equation
