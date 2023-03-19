@@ -17,4 +17,4 @@ The output of the execution is shown in the console which will have the solution
 
 The dataset in the google drive link can be used to train the CNN model.
 
-Save model data is present as model.h5.
+Saved model data is present as model.h5.
